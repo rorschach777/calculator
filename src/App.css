@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.calc-wrapper {
+  margin: 50px auto;
+  width: 600px;
+  height: 935px;
+  background-color: #ddd;
+  border-radius: 25px;
+
+}
+.output-screen {
+  background-color: black;
+  height: 300px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: #fff;
+  font-size: 90px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-align: right;
+  padding: 0 20px ;
+}
+
+
