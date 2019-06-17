@@ -1,10 +1,6 @@
-.row {
-display: flex;
-flex-direction: row;
-}
-.calc-button{
+.calc-button {
     background-color: #292D35;
-    padding: 30px ;
+    padding: 30px;
     flex-basis: 25%;
     color: #fff;
     font-size: 35px;
@@ -13,9 +9,11 @@ flex-direction: row;
     outline: 1px solid #666666;
     cursor: pointer;
 }
+
 .calc-button:hover {
     opacity: .9;
 }
+
 .zero {
     flex-basis: 78%;
 }

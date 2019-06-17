@@ -1,7 +1,7 @@
 import React from 'react';
 import './CalcButton.css';
 const buttonType = (x) => {
-    return ;
+    return;
 }
 
 const CalcButton = (props) => (<div
@@ -9,5 +9,5 @@ const CalcButton = (props) => (<div
     onClick={() => props.insertValue(props.children)}>
     {props.children}
 </div>);
- 
+
 export default CalcButton;
