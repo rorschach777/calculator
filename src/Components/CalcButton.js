@@ -4,9 +4,9 @@ const buttonType = (x) => {
     return ;
 }
 
-const CalcButton = (props) => (<div 
-className={`calc-button ${props.children == 0 ?  'zero': null }`}
-onClick={()=> props.insertValue(props.children)}>
+const CalcButton = (props) => (<div
+    className={`calc-button ${props.children == 0 ? 'zero' : null}`}
+    onClick={() => props.insertValue(props.children)}>
     {props.children}
 </div>);
  
